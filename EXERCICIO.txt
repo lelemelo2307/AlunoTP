@@ -1,2 +1,62 @@
 Meu primeiro projeto Git
 Adicionando mais conteúdo
+
+a) git init
+Inicializa um repositório Git local.
+
+b) git config --global user.name "turing"
+Define o nome do usuário globalmente no Git.
+
+c) git add EXERCICIO.txt
+Adiciona um arquivo específico para a área de stage.
+
+d) git add .
+Adiciona todos os arquivos modificados para a área de stage.
+
+e) git commit -m "Adicionado nova interface"
+Salva as alterações com uma mensagem descritiva.
+
+f) git commit
+Abre o editor para escrever a mensagem de commit.
+
+g) git reset --hard HEAD
+Descarta todas as alterações e volta ao último commit.
+
+h) cd Downloads
+Entra na pasta Downloads.
+
+i) pwd
+Mostra o diretório atual.
+
+j) cd ..
+Volta uma pasta no diretório.
+
+k) ls
+Lista os arquivos e pastas do diretório.
+
+l) git pull
+Atualiza o repositório local com as mudanças do remoto.
+
+m) git push
+Envia as alterações para o repositório remoto.
+
+n) git clone https://gitlab.com/rVenson/linguagemdeprogramacao
+Clona um repositório remoto para a máquina local.
+
+o) git diff
+Mostra as diferenças entre versões de arquivos.
+
+p) git show
+Mostra detalhes de um commit.
+
+----------------------------------------
+
+1) Stage Area e Commit
+Stage Area é a área onde os arquivos ficam antes de serem salvos definitivamente.
+Commit é o registro das alterações no repositório.
+
+2) Local Repository
+É o repositório armazenado na máquina do usuário.
+
+3) Remote Repository
+É o repositório armazenado na internet (GitHub/GitLab).
